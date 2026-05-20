@@ -1,22 +1,22 @@
 class Mondo < Formula
   desc "Power-user CLI for the monday.com GraphQL API"
   homepage "https://github.com/zoltanf/mondo"
-  version "0.7.1"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     depends_on arch: :arm64
-    url "https://github.com/zoltanf/mondo/releases/download/v0.7.1/mondo-0.7.1-darwin-arm64.tar.gz"
-    sha256 "81d503812ddcfe9ca245a70106638ae6e09c204dc2aebd637e2a6cd895308491"
+    url "https://github.com/zoltanf/mondo/releases/download/v0.8.0/mondo-0.8.0-darwin-arm64.tar.gz"
+    sha256 "8da1bfdaaf8d9c373a7fac6a053bc76cf577179216fe1561726aa4f97b3412e8"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/zoltanf/mondo/releases/download/v0.7.1/mondo-0.7.1-linux-arm64.tar.gz"
-      sha256 "2591c930080497351953ca02fc2d681bddd35c880cb4d519a8c07bf030d8bf9b"
+      url "https://github.com/zoltanf/mondo/releases/download/v0.8.0/mondo-0.8.0-linux-arm64.tar.gz"
+      sha256 "f486418d6aeaf3dc081612dc15f9cf9f3c33f7007af7cfbd13a753d3936394a4"
     else
-      url "https://github.com/zoltanf/mondo/releases/download/v0.7.1/mondo-0.7.1-linux-x86_64.tar.gz"
-      sha256 "4c66729931ead97fc27fd24e7c0db705b06c0c356225829b158dae7ff18aa367"
+      url "https://github.com/zoltanf/mondo/releases/download/v0.8.0/mondo-0.8.0-linux-x86_64.tar.gz"
+      sha256 "86e25feced9fcbb582668406d289291a715db92b89bad562d993cc4e78810970"
     end
   end
 
